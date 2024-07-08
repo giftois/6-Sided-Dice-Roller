@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background-color: maroon;
+}
+
+h1 {
+    color: black;
+    background-color:rgb(243, 225, 180);
+    font-size: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 260px 125px;
+    border-radius: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+#dice {
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+
+    border: maroon solid 1px;
+    border-radius: 173px;
+    box-shadow: rgb(59, 19, 19) 0px 0px 45px;
+    background-color: black;
+    width: 90vh;
+    height: 90vh;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 5px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(99, 122, 233);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+button:hover, .post-event-button:hover {
+    background-color: rgb(60, 200, 81);
+    color: white;
+    transform: translateY(-2px);
+
+}
+
+#dice-result {
+    background-color: #ebbfad;
+}
+
+/* ? Dice Images */
+#image-container img {
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box; 
+}
+
