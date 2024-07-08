@@ -28,32 +28,32 @@ const rollDice = () => {
     
         case 1 :
         counter.one += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/${value}.png" alt ="Dice ${value}">`);
         break;
 
         case 2 :
         counter.two += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/${value}.png" alt ="Dice ${value}">`);
         break;
 
         case 3 :
         counter.three += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller//6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller//${value}.png" alt ="Dice ${value}">`);
         break;
 
         case 4 :
         counter.four += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/${value}.png" alt ="Dice ${value}">`);
         break;
 
         case 5 :
         counter.five += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/${value}.png" alt ="Dice ${value}">`);
         break;
 
         case 6 :
         counter.six += 1;
-        images.push(`<img class="dice-face" src="/6-Sided-Dice-Roller/dice-images/${value}.png" alt ="Dice ${value}">`);
+        images.push(`<img class="dice-face" src="/${value}.png" alt ="Dice ${value}">`);
         // TODO ENTER SECOND ROLL HERE
         break;
     }
@@ -63,7 +63,7 @@ const rollDice = () => {
 
 // add the image to the html with each itertion of the event
     const img = document.createElement('img');
-    img.src = `/6-Sided-Dice-Roller/dice-roller/dice-images/${value}.png`;
+    img.src = `/${value}.png`;
     img.alt = `Dice ${value}`;
     img.style.cssText = `border: 50px solid ${rbgNum()}; border-radius: 121px; background-color: ${rbgNum()};`
     diceImages.appendChild(img);
